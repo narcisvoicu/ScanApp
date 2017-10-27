@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6413977D1E13F6BF0017F154 /* white_bar_ci.png in Resources */ = {isa = PBXBuildFile; fileRef = 6413977C1E13F6BF0017F154 /* white_bar_ci.png */; };
+		641397921E13F8530017F154 /* SwiftOCR in Resources */ = {isa = PBXBuildFile; fileRef = 641397911E13F8530017F154 /* SwiftOCR */; };
+		641397B61E13FEB30017F154 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 641397B51E13FEB30017F154 /* tessdata */; };
+		641397B91E13FED40017F154 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 641397B81E13FED40017F154 /* libstdc++.6.0.9.tbd */; };
+		641397BB1E13FEDD0017F154 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641397BA1E13FEDD0017F154 /* CoreImage.framework */; };
+		64261A6D1E14090D00A2EE29 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641397B21E13FE840017F154 /* TesseractOCR.framework */; };
+		645AA5931E127FEF006AC6C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645AA5921E127FEF006AC6C2 /* AppDelegate.swift */; };
+		645AA5951E127FEF006AC6C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645AA5941E127FEF006AC6C2 /* ViewController.swift */; };
+		645AA5981E127FEF006AC6C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645AA5961E127FEF006AC6C2 /* Main.storyboard */; };
+		645AA59A1E127FEF006AC6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645AA5991E127FEF006AC6C2 /* Assets.xcassets */; };
+		645AA59D1E127FEF006AC6C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645AA59B1E127FEF006AC6C2 /* LaunchScreen.storyboard */; };
+		6475F6F91E2C223100ABE99B /* CI.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6475F6F81E2C223100ABE99B /* CI.jpeg */; };
+		6475F6FB1E2C2D0700ABE99B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475F6FA1E2C2D0700ABE99B /* Utils.swift */; };
+		649E42D31E151BFE0036EE62 /* Lenore3.png in Resources */ = {isa = PBXBuildFile; fileRef = 649E42D21E151BFE0036EE62 /* Lenore3.png */; };
+		649E42DE1E1521290036EE62 /* IMG_3354-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 649E42DD1E1521290036EE62 /* IMG_3354-2.jpeg */; };
+		64B3A0D91E1BDC260056E982 /* Tesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0D81E1BDC260056E982 /* Tesseract.swift */; };
+		64B3A0DB1E1BDD0D0056E982 /* CIScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0DA1E1BDD0D0056E982 /* CIScanViewController.swift */; };
+		64B3A0DD1E1BDD230056E982 /* DocScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0DC1E1BDD230056E982 /* DocScanViewController.swift */; };
+		64B3A0DF1E1BDD390056E982 /* HandwritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0DE1E1BDD390056E982 /* HandwritingViewController.swift */; };
+		64B3A0E11E1BE9B00056E982 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0E01E1BE9B00056E982 /* AlertBuilder.swift */; };
+		64B3A0E31E1BF3F50056E982 /* ImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0E21E1BF3F50056E982 /* ImageSource.swift */; };
+		64B3A0E81E1C05E70056E982 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3A0E71E1C05E70056E982 /* ActivityIndicator.swift */; };
+		64D146DD1E3D3DD200829F5D /* MyScansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D146DC1E3D3DD200829F5D /* MyScansViewController.swift */; };
+		64D146DF1E3D45D600829F5D /* PDFConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D146DE1E3D45D600829F5D /* PDFConverter.swift */; };
+		64F5C6871E3FDA8E0014C309 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5C6861E3FDA8E0014C309 /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6413977C1E13F6BF0017F154 /* white_bar_ci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bar_ci.png; sourceTree = "<group>"; };
+		641397911E13F8530017F154 /* SwiftOCR */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftOCR; path = "/Users/voicunarciss/Downloads/SwiftOCR-master/framework/SwiftOCR"; sourceTree = "<absolute>"; };
+		641397B21E13FE840017F154 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		641397B51E13FEB30017F154 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		641397B81E13FED40017F154 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		641397BA1E13FEDD0017F154 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		641397C31E1406510017F154 /* ScanApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScanApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		645AA58F1E127FEF006AC6C2 /* ScanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		645AA5921E127FEF006AC6C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		645AA5941E127FEF006AC6C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		645AA5971E127FEF006AC6C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		645AA5991E127FEF006AC6C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		645AA59C1E127FEF006AC6C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		645AA59E1E127FEF006AC6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6475F6F81E2C223100ABE99B /* CI.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CI.jpeg; sourceTree = "<group>"; };
+		6475F6FA1E2C2D0700ABE99B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		649E42D21E151BFE0036EE62 /* Lenore3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lenore3.png; sourceTree = "<group>"; };
+		649E42DD1E1521290036EE62 /* IMG_3354-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_3354-2.jpeg"; sourceTree = "<group>"; };
+		64B3A0D81E1BDC260056E982 /* Tesseract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tesseract.swift; path = ../Tesseract.swift; sourceTree = "<group>"; };
+		64B3A0DA1E1BDD0D0056E982 /* CIScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIScanViewController.swift; sourceTree = "<group>"; };
+		64B3A0DC1E1BDD230056E982 /* DocScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocScanViewController.swift; sourceTree = "<group>"; };
+		64B3A0DE1E1BDD390056E982 /* HandwritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandwritingViewController.swift; sourceTree = "<group>"; };
+		64B3A0E01E1BE9B00056E982 /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		64B3A0E21E1BF3F50056E982 /* ImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSource.swift; sourceTree = "<group>"; };
+		64B3A0E71E1C05E70056E982 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		64D146DC1E3D3DD200829F5D /* MyScansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScansViewController.swift; sourceTree = "<group>"; };
+		64D146DE1E3D45D600829F5D /* PDFConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFConverter.swift; sourceTree = "<group>"; };
+		64F5C6861E3FDA8E0014C309 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645AA58C1E127FEE006AC6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64261A6D1E14090D00A2EE29 /* TesseractOCR.framework in Frameworks */,
+				641397BB1E13FEDD0017F154 /* CoreImage.framework in Frameworks */,
+				641397B91E13FED40017F154 /* libstdc++.6.0.9.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641397B71E13FED40017F154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641397BA1E13FEDD0017F154 /* CoreImage.framework */,
+				641397B81E13FED40017F154 /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		645AA5861E127FEE006AC6C2 = {
+			isa = PBXGroup;
+			children = (
+				641397C31E1406510017F154 /* ScanApp-Bridging-Header.h */,
+				641397B51E13FEB30017F154 /* tessdata */,
+				641397B21E13FE840017F154 /* TesseractOCR.framework */,
+				645AA5911E127FEF006AC6C2 /* ScanApp */,
+				645AA5901E127FEF006AC6C2 /* Products */,
+				641397B71E13FED40017F154 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		645AA5901E127FEF006AC6C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645AA58F1E127FEF006AC6C2 /* ScanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645AA5911E127FEF006AC6C2 /* ScanApp */ = {
+			isa = PBXGroup;
+			children = (
+				64B3A0E61E1C05940056E982 /* ViewControllers */,
+				64B3A0E51E1C05770056E982 /* Images */,
+				64B3A0E41E1C05610056E982 /* Utils */,
+				645AA5921E127FEF006AC6C2 /* AppDelegate.swift */,
+				645AA5961E127FEF006AC6C2 /* Main.storyboard */,
+				645AA5991E127FEF006AC6C2 /* Assets.xcassets */,
+				645AA59B1E127FEF006AC6C2 /* LaunchScreen.storyboard */,
+				645AA59E1E127FEF006AC6C2 /* Info.plist */,
+			);
+			path = ScanApp;
+			sourceTree = "<group>";
+		};
+		64B3A0E41E1C05610056E982 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				64B3A0D81E1BDC260056E982 /* Tesseract.swift */,
+				64B3A0E01E1BE9B00056E982 /* AlertBuilder.swift */,
+				64B3A0E21E1BF3F50056E982 /* ImageSource.swift */,
+				64B3A0E71E1C05E70056E982 /* ActivityIndicator.swift */,
+				6475F6FA1E2C2D0700ABE99B /* Utils.swift */,
+				64D146DE1E3D45D600829F5D /* PDFConverter.swift */,
+				64F5C6861E3FDA8E0014C309 /* Colors.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		64B3A0E51E1C05770056E982 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6475F6F81E2C223100ABE99B /* CI.jpeg */,
+				649E42D21E151BFE0036EE62 /* Lenore3.png */,
+				6413977C1E13F6BF0017F154 /* white_bar_ci.png */,
+				649E42DD1E1521290036EE62 /* IMG_3354-2.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		64B3A0E61E1C05940056E982 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				645AA5941E127FEF006AC6C2 /* ViewController.swift */,
+				64B3A0DA1E1BDD0D0056E982 /* CIScanViewController.swift */,
+				64B3A0DC1E1BDD230056E982 /* DocScanViewController.swift */,
+				64B3A0DE1E1BDD390056E982 /* HandwritingViewController.swift */,
+				64D146DC1E3D3DD200829F5D /* MyScansViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645AA58E1E127FEE006AC6C2 /* ScanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645AA5A11E127FEF006AC6C2 /* Build configuration list for PBXNativeTarget "ScanApp" */;
+			buildPhases = (
+				645AA58B1E127FEE006AC6C2 /* Sources */,
+				645AA58C1E127FEE006AC6C2 /* Frameworks */,
+				645AA58D1E127FEE006AC6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanApp;
+			productName = ScanApp;
+			productReference = 645AA58F1E127FEF006AC6C2 /* ScanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645AA5871E127FEE006AC6C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Voicu Narcis";
+				TargetAttributes = {
+					645AA58E1E127FEE006AC6C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H8Q62M33XE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 645AA58A1E127FEE006AC6C2 /* Build configuration list for PBXProject "ScanApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 645AA5861E127FEE006AC6C2;
+			productRefGroup = 645AA5901E127FEF006AC6C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645AA58E1E127FEE006AC6C2 /* ScanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645AA58D1E127FEE006AC6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6475F6F91E2C223100ABE99B /* CI.jpeg in Resources */,
+				649E42D31E151BFE0036EE62 /* Lenore3.png in Resources */,
+				645AA59D1E127FEF006AC6C2 /* LaunchScreen.storyboard in Resources */,
+				645AA59A1E127FEF006AC6C2 /* Assets.xcassets in Resources */,
+				645AA5981E127FEF006AC6C2 /* Main.storyboard in Resources */,
+				6413977D1E13F6BF0017F154 /* white_bar_ci.png in Resources */,
+				649E42DE1E1521290036EE62 /* IMG_3354-2.jpeg in Resources */,
+				641397921E13F8530017F154 /* SwiftOCR in Resources */,
+				641397B61E13FEB30017F154 /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645AA58B1E127FEE006AC6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B3A0E31E1BF3F50056E982 /* ImageSource.swift in Sources */,
+				645AA5951E127FEF006AC6C2 /* ViewController.swift in Sources */,
+				64B3A0E81E1C05E70056E982 /* ActivityIndicator.swift in Sources */,
+				64B3A0DB1E1BDD0D0056E982 /* CIScanViewController.swift in Sources */,
+				645AA5931E127FEF006AC6C2 /* AppDelegate.swift in Sources */,
+				64B3A0E11E1BE9B00056E982 /* AlertBuilder.swift in Sources */,
+				64D146DD1E3D3DD200829F5D /* MyScansViewController.swift in Sources */,
+				6475F6FB1E2C2D0700ABE99B /* Utils.swift in Sources */,
+				64F5C6871E3FDA8E0014C309 /* Colors.swift in Sources */,
+				64B3A0DD1E1BDD230056E982 /* DocScanViewController.swift in Sources */,
+				64B3A0DF1E1BDD390056E982 /* HandwritingViewController.swift in Sources */,
+				64D146DF1E3D45D600829F5D /* PDFConverter.swift in Sources */,
+				64B3A0D91E1BDC260056E982 /* Tesseract.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		645AA5961E127FEF006AC6C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645AA5971E127FEF006AC6C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		645AA59B1E127FEF006AC6C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645AA59C1E127FEF006AC6C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		645AA59F1E127FEF006AC6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		645AA5A01E127FEF006AC6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645AA5A21E127FEF006AC6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H8Q62M33XE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ScanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = ro.narcis.ScanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScanApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		645AA5A31E127FEF006AC6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H8Q62M33XE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ScanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = ro.narcis.ScanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScanApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645AA58A1E127FEE006AC6C2 /* Build configuration list for PBXProject "ScanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645AA59F1E127FEF006AC6C2 /* Debug */,
+				645AA5A01E127FEF006AC6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645AA5A11E127FEF006AC6C2 /* Build configuration list for PBXNativeTarget "ScanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645AA5A21E127FEF006AC6C2 /* Debug */,
+				645AA5A31E127FEF006AC6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645AA5871E127FEE006AC6C2 /* Project object */;
+}
